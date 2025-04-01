@@ -1,0 +1,37 @@
+2025-04-01 15:23:39,509 - INFO - Loading the Product data File:-./reference/products.csv
+2025-04-01 15:23:39,509 - INFO - Checking for new files...
+2025-04-01 15:23:39,509 - INFO - File processor started.
+2025-04-01 15:23:39,509 - INFO - Processing file: ./transactions\transactions.csv
+2025-04-01 15:23:39,509 - INFO - File ./transactions\transactions.csv has 10 rows.
+2025-04-01 15:23:39,509 - INFO - JUST started swapping THE READBLE AND PROCESSING STORES
+2025-04-01 15:23:39,509 - INFO - JUST completed swapping THE READBLE AND PROCESSING STORES
+2025-04-01 15:23:39,509 - INFO - Processed file: ./transactions\transactions.csv
+2025-04-01 15:23:39,509 - INFO - Processing file: ./transactions\transactions2.csv
+2025-04-01 15:23:39,525 - INFO - File ./transactions\transactions2.csv has 10 rows.
+2025-04-01 15:23:39,525 - INFO - JUST started swapping THE READBLE AND PROCESSING STORES
+2025-04-01 15:23:39,526 - INFO - JUST completed swapping THE READBLE AND PROCESSING STORES
+2025-04-01 15:23:39,527 - INFO - Processed file: ./transactions\transactions2.csv
+2025-04-01 15:23:39,527 - INFO - Waiting 60 seconds before next check...
+2025-04-01 15:23:49,778 - INFO - caluclating the daily summary for products for date 2025-04-01
+2025-04-01 15:23:49,779 - INFO - caluclating the aggregate summary for products for required days {'2025-04-01', '2025-03-31', '2025-03-30', '2025-03-29', '2025-03-27', '2025-03-26', '2025-03-28'}
+2025-04-01 15:23:49,779 - INFO - caluclating the daily summary for products for date 2025-03-31
+2025-04-01 15:23:49,780 - INFO - caluclating the daily summary for products for date 2025-03-30
+2025-04-01 15:23:49,781 - INFO - caluclating the daily summary for products for date 2025-03-29
+2025-04-01 15:23:49,782 - INFO - caluclating the daily summary for products for date 2025-03-27
+2025-04-01 15:23:49,782 - INFO - caluclating the daily summary for products for date 2025-03-26
+2025-04-01 15:23:49,783 - INFO - caluclating the daily summary for products for date 2025-03-28
+2025-04-01 15:23:49,783 - INFO - best_cached_days-None
+2025-04-01 15:23:49,784 - INFO - best_cached_summary-None
+2025-04-01 15:23:49,784 - INFO - best_cached_overlap-0
+2025-04-01 15:23:55,334 - INFO - caluclating the aggregate summary for products for required days {'2025-04-01', '2025-03-31', '2025-03-30', '2025-03-29', '2025-03-28'}
+2025-04-01 15:23:55,335 - INFO - best_cached_days-{'2025-04-01', '2025-03-31', '2025-03-30', '2025-03-29', '2025-03-27', '2025-03-26', '2025-03-28'}
+2025-04-01 15:23:55,335 - INFO - best_cached_summary-[('Product1', 30000.0), ('Product2', 30000.0)]
+2025-04-01 15:23:55,336 - INFO - best_cached_overlap-5
+2025-04-01 15:23:55,336 - INFO - days to add-set()
+2025-04-01 15:23:55,336 - INFO - days to subtract-{'2025-03-27', '2025-03-26'}
+2025-04-01 15:23:57,690 - INFO - caluclating the aggregate summary for products for required days {'2025-04-01', '2025-03-31'}
+2025-04-01 15:23:57,691 - INFO - best_cached_days-{'2025-04-01', '2025-03-31', '2025-03-30', '2025-03-29', '2025-03-28'}
+2025-04-01 15:23:57,691 - INFO - best_cached_summary-[('Product1', 30000.0), ('Product2', 30000.0)]
+2025-04-01 15:23:57,691 - INFO - best_cached_overlap-2
+2025-04-01 15:23:57,693 - INFO - days to add-set()
+2025-04-01 15:23:57,693 - INFO - days to subtract-{'2025-03-29', '2025-03-28', '2025-03-30'}
