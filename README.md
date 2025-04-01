@@ -12,6 +12,7 @@ This app:
 ---
 
 ## Project Structure
+```
 transaction-api/
 ├── app.py                  # The Flask main file 
 ├── config.py               # config file
@@ -23,3 +24,4 @@ transaction-api/
 ├── reference/              # Holds product data
 │   └── products.csv        # Product files
 └── README.md               # Readme file
+```
