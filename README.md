@@ -13,14 +13,4 @@ This app:
 
 ## Project Structure
 
-transaction-api/
-├── app.py                  # The Flask main file 
-├── config.py               # config file
-├── data_controller.py      # data controller where data management happens
-├── file_processor.py       # process new files every 5 minutes
-├── logger.py               # logs everything
-├── models.py               # defined models for our objects
-├── transactions/           # Where transaction CSVs comes in 
-├── reference/              # Holds product data
-│   └── products.csv        # Product files
-└── README.md               # Readme file
+transaction-api/ ├── app.py # The Flask main file ├── config.py # Config file ├── data_controller.py # Data controller where data management happens ├── file_processor.py # Process new files every 5 minutes ├── logger.py # Logs everything ├── models.py # Defined models for our objects ├── transactions/ # Where transaction CSVs come in ├── reference/ # Holds product data │ └── products.csv # Product files └── README.md # Readme file
