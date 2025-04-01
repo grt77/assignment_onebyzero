@@ -26,14 +26,14 @@ transaction-api/
 └── README.md               # Readme file
 ```
 
-## Command to run script
+#Command to run script
 
 ```
 python app.py
 
 ```
 
-##Endpoints to fetch data
+Endpoints to fetch data
 
 ```
 
@@ -46,5 +46,38 @@ sample output :
   "transactionDatetime": "2025-04-01 10:00:00",
   "transactionId": "t1"
 }
+
+
+2-/assignment/transactionSummaryByProducts/<int:last_n_days>
+
+sample output : 
+
+[
+  {
+    "productName": "Product1",
+    "totalAmount": 30000
+  },
+  {
+    "productName": "Product2",
+    "totalAmount": 30000
+  }
+]
+
+3-/assignment/transactionSummaryByManufacturingCity/<int:last_n_days>'
+sample output :
+
+[
+  {
+    "cityName": "Los Angeles",
+    "totalAmount": 30000
+  },
+  {
+    "cityName": "New York",
+    "totalAmount": 30000
+  }
+]
+
+```
+
 
 ```
