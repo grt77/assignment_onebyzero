@@ -25,3 +25,26 @@ transaction-api/
 │   └── products.csv        # Product files
 └── README.md               # Readme file
 ```
+
+## Command to run script
+
+```
+python app.py
+
+```
+
+##Endpoints to fetch data
+
+```
+
+1. /assignment/transaction/<transaction_id>
+
+sample output : 
+{
+  "productName": "Product1",
+  "transactionAmount": 1000,
+  "transactionDatetime": "2025-04-01 10:00:00",
+  "transactionId": "t1"
+}
+
+```
